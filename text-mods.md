@@ -1,49 +1,56 @@
-## Index
-Payment
+# Разметы слов, использующихся в тексте страниц
+Т.к. текст в макетах эмулируется элементами text__word, то для получения строк нужной необходимо использовать один или несколько таких элементов со значением модификатора width из этого файла.
+
+Например, запись l соответствует блоку text с единственным элементом word с модификатором width в значении l.
+Запись l + s означает, что в блоке текст будет два элемента word со значениями модификатора width в значениях l и s.
+
+## Страница Index
+### Блок Payment
+
 Заголовок: l
 Лебл: l
 Подпись рядом с кнопкой: l
 
-Warning
+### Блок Warning
 Основной текст: s + l + m + m + s + m + l + s + m
 
-Product
+### Блок Product
 Имя: l
 Подпись: m
 
-History
-День: m
-Время: m
+### Блок History
+День и время (серый текст слева от цветного логотипа): m
 Лэйбл транзакции: l
-Сумма: m
-Описание: l + m + l (первая строка) и l+m+l(вторая строка)
+Сумма: 
+
+Описание: l + m + l (первая и вторая строка)
 Событие: l (левый) + m (правый)
 
-Commercial
+### Блок Commercial
 Основной текст: l + m + l + s + s + m + l + m
 
-Footer
+### Блок Footer
 Первое слово l + s
 Второе слово l
 
 
 
-## Collect
-Collect
+## Страница Collect
+### Блок Collect
 Заголовок: l + m
 Описание: s + l + m + s + s + l + m + m + l + l + s
 
-Articles
+### Блок Articles
 Дата: m + s + s + m
 Заголовок: l + m
 Тэг: m + s
 
-Offer
+### Блок Offer
 Название: m
 Скидки: m
 Описание: l + s + m + l + s + m + s+ l
 
-Subscribtion
+### Блок Subscribtion
 Заголовок: l
 Пункт: l + m + s
 Пункт: l + s + s
@@ -53,39 +60,42 @@ Subscribtion
 
 
 
-## Content
-Описание продукта
-Заголовок: l
-Абзац: l + m + m + s + m + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + s + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + s + s + l + m + m + s + m + m + m + m + m + m + l + s + l + s + l + m + m + s + m + m + l + m + s + m + l + l + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + l + m
+## Страница Content
+### Первая секция
+Заголовок: l + l
+Первый абзац: l + s + l + m + l + l + s + l + s + m + l + l + s + l + l + m + l + l + l + l + l + m + m + l + l + l + l + l + l + s + m + l + s + l
+Второй абзац: l + s + l + m + l + l + s + l + s + m + l + l + s + l + l + m + l + l + l + l + l + m + m + l + l + l + l + l + l + s + m + l + s + l
 
-Подзаголовок: l
-Абзац: m + l + l + l + s + l + m + m + s + m + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + s + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + s + s + l + m + m + s + m + m + m + m + m + m + l + s + l + s + l + m + m + s + m + m + l + m
-
-Event
+### Вторая секция
+### Блок Event
 Title: l
 Описание: l + l + l + l + l + l + l + l
 Ссылка: s + s
 
-Подзаголовок: m + m
-l + s + s + m + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + s + l + m + m + s + m + m + s + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + s + s + l + m + m + s + m + m + m + m
+### Третья секция
+Заголовок второго уровня: m + m
+Третий абзац: l + s + s + m + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + l + s + l + m + m + s + m + m + s + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + s + s + l + m + m + s + m + m + m + m
 
 Заголовок третего уровня m + l
-Абзац: m + l + l + l + s + l + m + m + s + m + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s
+Четвертый абзац: l + s + s + m + l + l + l + l + l + l + l + l + l + l + l + l + l + l + m + l + l + s + s + s + m + m + s + m + m + s + m + s + l + l + l + l + s + l + m + m + s + m + m + m + m + m + m + l + l + s + s + l + m + m + s + m + l + m + m
 
 
 
-## Product
-Левая текстовая часть
-Заголовок: l + l
-Абзац: l + s + l + m + l + l + s + l + s + m + l + l + s + l + l + m + l + l + l + l + l + m + m + l + l + l + l + l + l + s + m + l + s + l
+## Страница Product
+### Левая текстовая часть
+Заголовок первого уровня: l
+Первый абзац: l + m + m + s + m + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + s + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + m + l + l + s + s + l + m + m + s + m + m + m + m + m + m + l + s + l + s + l + m + m + s + m + m + l + m + s + m + l + l + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s + l + m
 
-Cover
+Заголовок второго уровня: l
+Второй абзац: m + l + l + l + s + l + m + m + s + m + m + m + s + m + m + m + m + s + m + l + l + l + s + l + m + m + s + m + m + m + m + s
+
+### Блок Cover
 Название: l
 Цена: m
 
-Cекции с продуктовыми карточками
+### Секция с продуктовыми карточками
 Заголовок: l + l
 
-Product
+### Блок Product
 Имя: l
 Подпись: m

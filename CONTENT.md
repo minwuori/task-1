@@ -112,7 +112,8 @@
 - размер границ — 3px;
 - элемент прогресc-бара имеет высоту 8px и нижнюю границу;
 - высота изображения — 160px;
-- минимальная высота — 380px.
+- минимальная высота — 380px;
+- отступ между строкой заголовка и текстом — s.
 
 
 #### .articles — блок публикации
@@ -125,7 +126,8 @@
 Ещё блок должен содержать свои уникальные дополнительные стили.
 
 **Исходные стили**
-- размеры изображения — 170px x 120px.
+- размеры изображения — 170px x 120px;
+- вертикальный отступ перед ссылкой (последняя строка) — xs.
 
 
 #### .offer — блок скидочного предложения
@@ -138,7 +140,8 @@
 Ещё блок должен содержать свои уникальные дополнительные стили.
 
 ##### Исходные стили
-- минимальная высота — 408px
+- минимальная высота — 408px;
+- у первой и второй строк блока внешний отступ снизу имеет значение xs.
 
 
 #### .subscription — блок подписки
@@ -152,7 +155,9 @@
 
 **Исходные стили**
 - минимальная высота — 408px;
-- отступ между блоками input и button в футере — `s`.
+- отступ между блоками input и button в футере — `s`;
+- у первой строки внешний отступ снизу — xl;
+- у второй и последующих строк внешний отступ снизу — s.
 
 
 #### .event — блок мероприятия
@@ -300,7 +305,7 @@
 - articles__content (icon-plus__block)
 
 **Вложенные контентные блоки**
-- text text_view_secondary text_size_m
+- text text_view_secondary text_size_l
 - text text_view_primary text_size_l
 - text text_view_link text_size_m
 
@@ -340,8 +345,8 @@
 - avatar avatar_size_m
 - brand-logo brand-logo_name_mts/brand-logo_name_mts brand-logo_size_m
 - text text_view_primary text_size_xxl text_align_center
-- text text_view_primary text_size_xl text_align_center
-- text text_view_link text_size_l text_align_center
+- text text_view_primary text_size_l text_align_center
+- text text_view_link text_size_xl text_align_center
 
 
 ### Смысловой блок: product
