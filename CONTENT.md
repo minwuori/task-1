@@ -204,10 +204,10 @@
 
 **Исходные стили**
 - имеет вертикальные отступы в значении `xxxl` вертикальный и `--gap` горизонтальный;
-- к крааю экрана не прилипает;
+- к краю экрана не прилипает;
 - максимальная ширина контента — 1144px.
 
-### Помощь: подробная спецификация блоков с подсказкамиой, на каком узле и в какой модификации используется блок паттерна или его элементы.
+### Помощь: подробная спецификация блоков с подсказками, на каком узле и в какой модификации используется блок паттерна или его элементы.
 
 ### Смысловой блок: payment
 **Примиксованные блоки паттернов**
@@ -249,7 +249,10 @@
 **Примиксованные блоки Паттернов**
 - history (list_view_default list_border_all)
 - history__transaction (list__item_border_bottom list__item_space-a_l)[пункт истории]
-- history__show (e-accordion__short list__item_vertical-align_center list__item_indent-t_m)
+- history__show (e-accordion__short list__item_vertical-align_center list__item_indent-t_m)[контейнер для видимой части строки]
+- history__hide (e-accordion__more e-accordion__more_view_default list__item list__item_indent-t_m)[контейнер для раскрывающейся части строки]
+- history__details [объединяет блок времени, логотипа и текста]
+- history__tiem [блок времени (серые полосы слева)]
 - history__destination (icon-plus icon-plus_vertical-align_center)[объединяющий блок логотипа и текста]
 - history__pic (icon-plus__icon icon-plus__icon_indent-r_s icon-plus__icon_indent-l_l)[контейнер для логотипа]
 - history__label (icon-plus__block)[контейнер для текста]
