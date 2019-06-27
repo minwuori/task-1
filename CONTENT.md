@@ -24,7 +24,7 @@
  
 Из уровня дизайн-сиcтемы блок должен использовать:
 - стили блока-паттерна `.informer`;
-- стили контентных блоков `.text`, `placeholder`.
+- стили контентных блоков `.text`, `placeholder`, `button`.
 
 Ещё блок должен содержать свои уникальные дополнительные стили.
 
@@ -113,7 +113,8 @@
 - элемент прогресc-бара имеет высоту 8px и нижнюю границу;
 - высота изображения — 160px;
 - минимальная высота — 380px;
-- отступ между строкой заголовка и текстом — s.
+- отступ между строкой заголовка и текстом — s;
+- значения модификатора size (отображает прогресс): `one-third` — 1/3, `half` — 1/2, `two-third` — 2/3 от ширины контейнера.
 
 
 #### .articles — блок публикации
@@ -186,7 +187,7 @@
 - логотип имеет фиксированную ширину 179px, высоту 34px и цвет, соответствующий цвету основного текста.
 
 
-#### .onoswitch — сквозной блок переключателя тем
+#### .onoffswitch — сквозной блок переключателя тем
 Должен содержать свои уникальные стили и логику переключения тем (располагается внутри шапки).
 
 **Исходные стили**
@@ -232,6 +233,7 @@
 **Вложенные контентные блоки**
 - text text_view_primary text_size_xl
 - placeholder placeholder_view_primary placeholder_size_m
+- button button_size_l
 
 
 ### Смысловой блок: product
@@ -240,9 +242,13 @@
 - product__content (card__content card__content_space-a_m)
 - product__footer (card__footer card__footer_space-a_m)
 
+**Элементы без примиксованных блоков паттернов**
+- image (изображение)
+
 **Вложенные контентные блоки**
 - text text_view_primary text_size_m
 - text text_view_primary text_size_s
+- image
 
 
 ### Смысловой блок: history
@@ -251,13 +257,15 @@
 - history__transaction (list__item_border_bottom list__item_space-a_l)[пункт истории]
 - history__show (e-accordion__short list__item_vertical-align_center list__item_indent-t_m)[контейнер для видимой части строки]
 - history__hide (e-accordion__more e-accordion__more_view_default list__item list__item_indent-t_m)[контейнер для раскрывающейся части строки]
-- history__details [объединяет блок времени, логотипа и текста]
-- history__tiem [блок времени (серые полосы слева)]
 - history__destination (icon-plus icon-plus_vertical-align_center)[объединяющий блок логотипа и текста]
 - history__pic (icon-plus__icon icon-plus__icon_indent-r_s icon-plus__icon_indent-l_l)[контейнер для логотипа]
 - history__label (icon-plus__block)[контейнер для текста]
 - history__description (list__item_indent-b_m)[две строки текста в расхлопе]
 - history__actions (list__item_distribute_between list__item_indent-b_l)[нижняаяя строка в расхлопнутом элементе с двумя блоками]
+
+**Элементы без примиксованных блоков паттернов**
+- history__details [объединяет блок времени, логотипа и текста]
+- history__time [блок времени (серые полосы слева)]
 
 **Вложенные контентные блоки**
 - brand-logo brand-logo_name_yota brand-logo_size_m
@@ -274,8 +282,14 @@
 - commercial__pic (card__content_space-a_xxl)
 - commercial__info (card__footer_space-a_xxl)
 
+**Элементы без примиксованных блоков паттернов**
+- image (изображение)
+- navigation (контейнер для переключателей между страницами)
+- page-button (квадратная кнопка для переключения на страницу)
+
 **Вложенные контентные блоки**
 - text text_view_primary text_size_s
+- image
 
 ### Смысловой блок: cover
 **Примиксованные блоки паттернов**
@@ -286,6 +300,7 @@
 
 **Вложенные контентные блоки**
 - text text_view_primary text_size_xxl
+- image
 
 
 ### Смысловой блок: collect
@@ -294,9 +309,14 @@
 - collect__image (card__content)
 - collect__footer (card__footer card__footer_space-a_l)
 
+**Элементы без примиксованных блоков паттернов**
+- collect__progress (контейнер прогресс-бара)
+- collect__done (полоса прогресс-бара)
+
 **Вложенные контентные блоки**
 - text text_size_l text_view_primary
 - text text_size_m text_view_secondary
+- image
 
 
 ### Смысловой блок: articles
@@ -311,31 +331,42 @@
 - text text_view_secondary text_size_l
 - text text_view_primary text_size_l
 - text text_view_link text_size_m
-
+- image
 
 ### Смысловой блок: offer
 **Примиксованные блоки паттернов**
 - offer (theme_color_megafon-brand card card_view_default)
 - offer__partner (card__content_space-a_xl)
 - offer__footer (card__footer_space-a_xl)
-- brand-logo brand-logo_name_megafon brand-logo_size_m
+
+**Элементы без примиксованных блоков паттернов**
+- offer__name (первая строка текста)
+- offer__sale (вторая строка текста)
 
 **Вложенные контентные блоки**
 - text text_view_ghost text_size_s
 - text text_view_primary text_size_xxl
 - text text_view_secondary text_size_m
+- brand-logo brand-logo_name_megafon brand-logo_size_m
 
 
 ### Смысловой блок: subscription
 **Примиксованные блоки паттернов**
 - subscribtion (card_view_default theme theme_color_project-brand)
 - subscribtion__info (card__content_space-a_xl)
-- subscribtion__footer (card__footer_space-a_xl)
+- subscribtion__advantages (list)
+- subscribtion__advantage (list__item list__item_space-b_s)
+- subscribtion__footer (card__footer_space-a_xl list)
 - subscribtion__control (list__item_space-b_s)
+
+**Элементы без примиксованных блоков паттернов**
+- subscribtion__title (заголовок блока)
 
 **Вложенные контентные блоки**
 - text text_view_primary text_size_xxl
 - text text_view_primary text_size_l
+- input input_size_l
+- button button_size_l button_width_full
 
 
 ### Смысловой блок: event
@@ -343,6 +374,12 @@
 - event (card_view_default theme_color_project-inverse)
 - event__content (card__content_vertical-align_center card__content_distribute_center card__content_space-a_xxl)
 - event__footer (card__footer_vertical-align_center card__footer_distribute_center card__footer_space-a_xxl)
+
+**Элементы без примиксованных блоков паттернов**
+- event__preview (контейнер для изображений)
+- event__speaker (левое изображение в блоке)
+- event__title (заголовок события)
+- event__description (описание события)
 
 **Вложенные контентные блоки**
 - avatar avatar_size_m
@@ -361,14 +398,25 @@
 **Вложенные контентные блоки**
 - text text_view_primary text_size_m
 - text text_view_primary text_size_s
+- image
 
 
 ### Сквозной блок: header
 - Содержит в себе переключатель темы.
 
+**Элементы без примиксованных блоков паттернов**
+- header__content (содержимое блока)
+- header__logo (логотип слева)
+
 ### Сквозной блок: onoffswitch
 - Вкладывается в шапку.
+
+**Элементы без примиксованных блоков паттернов**
+- onoffswitch__button (квадратная кнопка переключателя)
 
 ### Сквозной блок: footer
 **Вложенные контентные блоки**
 - text text_view_primary text_size_l 
+
+**Элементы без примиксованных блоков паттернов**
+- footer__content (содержимое блока)
