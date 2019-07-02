@@ -283,9 +283,9 @@
 - commercial__info (card__footer_space-a_xxl)
 
 **Элементы без примиксованных блоков паттернов**
-- image (изображение)
-- navigation (контейнер для переключателей между страницами)
-- page-button (квадратная кнопка для переключения на страницу)
+- commercial__image (изображение)
+- commercial__navigation (контейнер для переключателей между страницами)
+- commercial__page-button (квадратная кнопка для переключения на страницу)
 
 **Вложенные контентные блоки**
 - text text_view_primary text_size_s
