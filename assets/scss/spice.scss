@@ -1,0 +1,47 @@
+.theme_space-xxxs {
+	margin: 	2px;
+}
+
+.theme_space-xxs {
+	margin: 4px;	
+}
+
+.theme_space-xs {
+	margin: 8px;	
+}
+
+.theme_space-s {
+	margin: 12px;	
+}
+
+.theme_space-m {
+	margin: 16px;
+}
+
+.theme_space-l {
+	margin: 20px;	
+}
+
+.theme_space-xl {
+	margin: 24px;	
+}
+
+.theme_space-xxl {
+	margin: 32px;	
+}
+.theme_space-xxxl {
+	margin: 40px;	
+}
+.theme_space-xxxxl {
+	margin: 48px;	
+}
+.theme_space-xxxxxl {
+	margin: 72px;	
+}
+.theme_gap_small {
+	margin: $gap;
+}
+.theme_gap_small-half {
+	margin: calc($gap/2);
+}
+

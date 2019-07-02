@@ -1,1 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+$gap: 40px;
+@media all and (min-width: 1144px) {
+	$gap: 16px;
+}
+
+
 @import 'theme';
+@import 'size';
