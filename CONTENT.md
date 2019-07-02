@@ -243,7 +243,7 @@
 - product__footer (card__footer card__footer_space-a_m)
 
 **Элементы без примиксованных блоков паттернов**
-- image (изображение)
+- product__image (изображение)
 
 **Вложенные контентные блоки**
 - text text_view_primary text_size_m
