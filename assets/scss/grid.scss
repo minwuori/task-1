@@ -1,0 +1,48 @@
+.grid {
+	display: grid;
+}
+
+.grid_m-columns_10 {
+	
+}
+
+.grid_m-columns_12 {
+	
+}
+
+.grid_col-gap_two-thirds {
+	grid-column-gap: calc($xxxl*2/3);
+}
+.grid_col-gap_half {
+	grid-column-gap: calc($xxxl/2)
+}
+.grid_col-gap_full {
+	grid-column-gap: $xxxl;
+}
+
+.grid_row-gap_half {
+	grid-row-gap: calc($xxxl/2)
+}
+.grid_row-gap_full {
+	grid-row-gap: $xxxl;
+}
+
+.grid_fraction_m-col_2 {
+	grid-template-columns: 2fr;
+}
+
+.grid_fraction_m-col_3 {
+	grid-template-columns: 3fr;
+}
+
+.grid_fraction_m-col_4 {
+	grid-template-columns: 4fr;
+}
+
+.grid_fraction_m-col_5 {
+	grid-template-columns: 5fr;
+}
+
+.grid_fraction_m-col_8 {
+	grid-template-columns: 8fr;
+}

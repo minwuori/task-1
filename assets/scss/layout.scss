@@ -1,0 +1,27 @@
+.layout_container_align-center {
+	text-align: center;
+}
+
+.layout_container_size-s {
+	max-width: 880px;
+}
+
+.layout_container_size-m {
+	max-width: 1144px;
+}
+
+.layout_container_space-v_xxxxl {
+	padding: $xxxxl 0;
+}
+
+.layout_container_space-v_xxxxxl {
+	padding: $xxxxxl 0;
+}
+
+.layout_container_indent-b_xxl {
+	margin-bottom: $xxl;
+}
+
+.layout_container_indent-b_xxxxl {
+	margin-bottom: $xxxxl;
+}
