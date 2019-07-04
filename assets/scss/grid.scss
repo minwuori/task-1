@@ -3,11 +3,11 @@
 }
 
 .grid_m-columns_10 {
-	
+	grid-template-columns: repeat(10, 1fr);
 }
 
 .grid_m-columns_12 {
-	
+	grid-template-columns: repeat(12, 1fr);
 }
 
 .grid_col-gap_two-thirds {
@@ -27,22 +27,22 @@
 	grid-row-gap: $xxxl;
 }
 
-.grid_fraction_m-col_2 {
+.grid__fraction_m-col_2 {
 	grid-template-columns: 2fr;
 }
 
-.grid_fraction_m-col_3 {
+.grid__fraction_m-col_3 {
 	grid-template-columns: 3fr;
 }
 
-.grid_fraction_m-col_4 {
+.grid__fraction_m-col_4 {
 	grid-template-columns: 4fr;
 }
 
-.grid_fraction_m-col_5 {
+.grid__fraction_m-col_5 {
 	grid-template-columns: 5fr;
 }
 
-.grid_fraction_m-col_8 {
+.grid__fraction_m-col_8 {
 	grid-template-columns: 8fr;
 }

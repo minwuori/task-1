@@ -1,111 +1,195 @@
-.theme_color_project-default {
+.theme_color_project-default,
+.theme_color_project-default .card_view_default,
+.theme_color_project-default .form_view_default,
+.theme_color_project-default .list_view_default {
 	background-color: #FFFFFF;
-	border-color: #000000;
-	color: #000000;
 }
-
-.theme_color_project-default .btn{
+.theme_color_project-default .image {
+	background-color: #FFFFFF;
+	width: 100%;
+	background-image: url('/images/image-placeholder-primary.svg');
+}
+.theme_color_project-default_accent,
+.theme_color_project-default .button {
 	background-color: #0056B3;
 }
+.theme_color_project-default .avatar,
+.theme_color_project-default .placeholder {
+	background-color: #000000;
+}
 
-.theme_color_project-default .second{
+.theme_color_project-default_border,
+.theme_color_project-default_border .card_border_all,
+.theme_color_project-default_border .form_border_all,
+.theme_color_project-default_border .informer_border_all,
+.theme_color_project-default_border .list_border_all {
+	border-color: #000000;
+}
+
+.theme_color_project-default .text_view_primary {
+	color: #000000;
+}
+.theme_color_project-default .text_view_secondary {
 	color: rgba(0, 0, 0, 0.6);
 }
-
-.theme_color_project-default .third{
+.theme_color_project-default .text_view_ghost {
 	color: rgba(0, 0, 0, 0.3);
 }
-
-.theme_color_project-default .link{
+.theme_color_project-default .text_view_link {
 	color: #0070f0;
 }
 
-.theme_color_project-brand {
+.theme_color_project-brand,
+.theme_color_project-brand .card_view_default,
+.theme_color_project-brand .form_view_default,
+.theme_color_project-brand .list_view_default {
 	background-color: #0070f0;
-	border-color: #FFFFFF;
-	color: #FFFFFF;
 }
-
-.theme_color_project-brand .btn{
+.theme_color_project-brand_accent,
+.theme_color_project-brand .button{
+	background-color: #FFFFFF;
+}
+.theme_color_project-brand .avatar,
+.theme_color_project-brand .placeholder {
 	background-color: #FFFFFF;
 }
 
-.theme_color_project-brand .second{
+.theme_color_project-brand_border,
+.theme_color_project-brand_border .card_border_all,
+.theme_color_project-brand_border .form_border_all,
+.theme_color_project-brand_border .informer_border_all,
+.theme_color_project-brand_border .list_border_all {
+	border-color: #FFFFFF;
+}
+
+.theme_color_project-brand .text_view_primary {
+	color: #FFFFFF;
+}
+.theme_color_project-brand .text_view_secondary {
 	color: rgba(255, 255, 255, 0.6);
 }
-
-.theme_color_project-brand .third{
+.theme_color_project-brand .text_view_ghost {
 	color: rgba(255, 255, 255, 0.3);
 }
-
-.theme_color_project-brand .link{
+.theme_color_project-brand .text_view_link{
 	color: #FFFFFF;
 }
 
-.theme_color_project-inverse {
+.theme_color_project-inverse,
+.theme_color_project-inverse .card_view_default,
+.theme_color_project-inverse .form_view_default,
+.theme_color_project-inverse .list_view_default {
 	background-color: #000000;
-	border-color: #FFFFFF;
-	color: #FFFFFF;
 }
-
-.theme_color_project-inverse .btn{
+.theme_color_project-default .image {
+	background-color: #000000;
+	width: 100%;
+	background-image: url('/images/image-placeholder-inverse.svg');
+}
+.theme_color_project-inverse_accent,
+.theme_color_project-inverse .button{
+	background-color: #FFFFFF;
+}
+.theme_color_project-inverse .avatar,
+.theme_color_project-inverse .placeholder {
 	background-color: #FFFFFF;
 }
 
-.theme_color_project-inverse .second{
+.theme_color_project-inverse_border,
+.theme_color_project-inverse_border .card_border_all,
+.theme_color_project-inverse_border .form_border_all,
+.theme_color_project-inverse_border .informer_border_all,
+.theme_color_project-inverse_border .list_border_all{
+	border-color: #FFFFFF;
+}
+
+.theme_color_project-inverse .text_view_primary {
+	color: #FFFFFF;
+}
+.theme_color_project-inverse .text_view_secondary{
 	color: rgba(255, 255, 255, 0.6);
 }
-
-.theme_color_project-inverse .third{
+.theme_color_project-inverse .text_view_ghost{
 	color: rgba(255, 255, 255, 0.3);
 }
-
-.theme_color_project-inverse .link{
+.theme_color_project-inverse .text_view_link{
 	color: #0070f0;
 }
 
 
-.theme_color_project-warning {
+.theme_color_project-warning,
+.theme_color_project-warning .card_view_default,
+.theme_color_project-warning .form_view_default,
+.theme_color_project-warning .list_view_default {
 	background-color: #FF9900;
-	border-color: #FFFFFF;
-	color: #FFFFFF;
 }
-
-.theme_color_project-warning .btn{
+.theme_color_project-warning_accent,
+.theme_color_project-warning .button{
+	background-color: #FFFFFF;
+}
+.theme_color_project-warning .avatar,
+.theme_color_project-warning .placeholder {
 	background-color: #FFFFFF;
 }
 
-.theme_color_project-warning .second{
+.theme_color_project-warning_border,
+.theme_color_project-warning_border .card_border_all,
+.theme_color_project-warning_border .form_border_all,
+.theme_color_project-warning_border .informer_border_all,
+.theme_color_project-warning_border .list_border_all{
+	border-color: #FFFFFF;
+}
+
+.theme_color_project-warning .text_view_primary {
+	color: #FFFFFF;
+}
+.theme_color_project-warning .text_view_secondary{
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.theme_color_project-warning .third{
+.theme_color_project-warning .text_view_ghost{
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.theme_color_project-warning .link{
+.theme_color_project-warning .text_view_link{
 	color: #FFFFFF;
 }
 
 
-.theme_color_megafon-brand {
+.theme_color_megafon-brand,
+.theme_color_megafon-brand .card_view_default,
+.theme_color_megafon-brand .form_view_default,
+.theme_color_megafon-brand .list_view_default {
 	background-color: #1FA55D;
-	border-color: #FFFFFF;
-	color: #FFFFFF;
 }
-
-.theme_color_megafon-brand .btn{
+.theme_color_megafon-brand_accent,
+.theme_color_megafon-brand .button{
+	background-color: #FFFFFF;
+}
+.theme_color_project-brand .avatar,
+.theme_color_project-brand .placeholder {
 	background-color: #FFFFFF;
 }
 
-.theme_color_megafon-brand .second{
+.theme_color_megafon-brand_border,
+.theme_color_megafon-brand_border .card_border_all,
+.theme_color_megafon-brand_border .form_border_all,
+.theme_color_megafon-brand_border .informer_border_all,
+.theme_color_megafon-brand_border .list_border_all{
+	border-color: #FFFFFF;
+}
+
+.theme_color_megafon-brand .text_view_primary {
+	color: #FFFFFF;
+}
+.theme_color_megafon-brand .text_view_secondary{
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.theme_color_megafon-brand .third{
+.theme_color_megafon-brand .text_view_ghost{
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.theme_color_megafon-brand .link{
+.theme_color_megafon-brand .text_view_link{
 	color: #FFFFFF;
 }

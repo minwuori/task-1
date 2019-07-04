@@ -1,0 +1,60 @@
+.card_border_all {
+	
+}
+
+.card_view_default {
+	
+}
+
+.card__content_distribute_center {
+	justify-items: center;
+}
+
+.card__content_vertical-align_center {
+	align-items: center;
+}
+
+.card__content_space-a_m,
+.card__footer_space-a_m {
+	padding: $m;
+}
+
+.card__content_space-a_l,
+.card__footer_space-a_l {
+	padding: $l;
+}
+
+.card__content_space-a_xl,
+.card__footer_space-a_xl {
+	padding: $xl;
+}
+
+.card__content_space-a_xxl,
+.card__footer_space-a_xxl {
+	padding: $xxl;
+}
+
+.card__footer_distribute_between {
+	justify-items: stretch;
+}
+
+.card__footer_distribute_center {
+	justify-items: center;
+}
+
+.card__footer_distribute_right {
+	justify-items: end;
+}
+
+.card__footer_vertical-align_center {
+	align-items: center;
+}
+
+.card__footer_vertical-align_top {
+	align-items: start;
+}
+
+.card__footer_vertical-align_bottom {
+	align-items: end;
+}
+

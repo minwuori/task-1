@@ -1,0 +1,35 @@
+.list__item_border_bottom {
+	border-bottom: inherit;
+}
+.list__item_border_top {
+	border-top: inherit;
+}
+
+.list__item_distribute_between {
+	justify-content: space-between;
+}
+.list__item_vertical-align_center {
+	align-content: center;
+}
+
+.list__item_indent-t_m {
+	margin-top: $m;
+}
+.list__item_indent-b_s {
+	margin-bottom: $s;
+}
+.list__item_indent-b_m {
+	margin-bottom: $m;
+}
+.list__item_indent-b_l {
+	margin-bottom: $l;
+}
+.list__item_indent-b_xl {
+	margin-bottom: $xl;
+}
+.list__item_space-b_s {
+	padding-bottom: $s;
+}
+.list__item_space-a_l {
+	padding: $l;
+}

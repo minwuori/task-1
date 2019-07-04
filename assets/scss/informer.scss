@@ -1,0 +1,25 @@
+.informer_border_all{
+	border-width: 3px;
+}
+
+.informer__content_distribute_default,
+.informer__action_distribute_default {
+	justify-content: normal;
+}
+.informer__content_distribute_between,
+.informer__action_distribute_between {
+	justify-content: space-between;
+}
+.informer__content_distribute_center,
+.informer__action_distribute_center {
+	justify-content: center;
+}
+
+.informer__content_space-a_xl,
+.informer__action_space-a_xl {
+	padding: $xl;
+}
+.informer__content_space-a_xxl,
+.informer__action_space-a_xxl {
+	padding: $xxl;
+}
