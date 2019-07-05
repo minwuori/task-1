@@ -82,7 +82,7 @@ gulp.task('clear', function (callback) {
     return cache.clearAll();
 })
 
-gulp.task('watch', ['browser-sync','scss', 'pug'], function() {
+gulp.task('watch', ['browser-sync','scss'], function() {
     gulp.watch('assets/scss/**/*.scss', ['scss']); // Наблюдение за scss файлами в папке scss
     gulp.watch('assets/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
     gulp.watch('assets/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js

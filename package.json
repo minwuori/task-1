@@ -27,5 +27,8 @@
     "gulp-uglifyjs": "^0.6.2",
     "gulp-using": "^0.1.1",
     "imagemin-pngquant": "^6.0.0"
+  },
+  "dependencies": {
+    "bem-xjst": "^8.9.5"
   }
 }

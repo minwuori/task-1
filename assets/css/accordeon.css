@@ -1,0 +1,5 @@
+.accordeon_show {
+  display: grid; }
+
+.accordeon_hidden {
+  display: none; }

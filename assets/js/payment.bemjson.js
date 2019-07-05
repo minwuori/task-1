@@ -3,17 +3,19 @@
     mix: [ { block: 'form', elemMods: {border: 'all'} } ],
     content: [
         { 
-        	block: 'payment',
         	elem: 'header',
         	mix: [ 
         			{ block: 'form', elem: 'item', elemMods: { space-v: 'l' } },
         			{ block: 'form', elem: 'item', elemMods: { space-h: 'xl' } },
         			{ block: 'form', elem: 'item', elemMods: { border: 'bottom' } },
         		], 
-        	content: { block: 'text', elemMods: { size: 'xxl' } } 
+        	content: { 
+                block: 'text', 
+                elemMods: { size: 'xxl' }, 
+                content: { block: 'text', elem: 'word', elemMods: { width: 'l' } } 
+            }
         },
         { 
-        	block: 'payment',
         	elem: 'content',
         	mix: [ 
         			{ block: 'form', elem: 'item', elemMods: { space-v: 'xxxl' } },
@@ -25,9 +27,9 @@
     				block: 'form', 
     				elem: 'item', 
     				mix: [ 
-	        			{ block: 'form', elem: 'item', elemMods: { indent-b: 'xl' } },
-	        			{ block: 'form', elem: 'item', elemMods: { distribute: 'between' } },
-	        			{ block: 'form', elem: 'item', elemMods: { vertical-align: 'center' } },
+	        			{ elemMods: { indent-b: 'xl' } },
+	        			{ elemMods: { distribute: 'between' } },
+	        			{ elemMods: { vertical-align: 'center' } },
 	        		],
 	        		content: [
 	        			{ 
@@ -38,6 +40,7 @@
 			        			{ block: 'text', elemMods: { size: 'l' } },
 			        			{ block: 'text', elemMods: { view: 'primary' } },
 			        		],
+                            content: { block: 'text', elem: 'word', elemMods: { width: 'l' } }
 		    			},
 		    			{ 
 		    				block: 'form', 
@@ -50,9 +53,9 @@
     				block: 'form', 
     				elem: 'item', 
     				mix: [ 
-	        			{ block: 'form', elem: 'item', elemMods: { indent-b: 'xl' } },
-	        			{ block: 'form', elem: 'item', elemMods: { distribute: 'between' } },
-	        			{ block: 'form', elem: 'item', elemMods: { vertical-align: 'center' } },
+	        			{ elemMods: { indent-b: 'xl' } },
+	        			{ elemMods: { distribute: 'between' } },
+	        			{ elemMods: { vertical-align: 'center' } },
 	        		],
 	        		content: [
 	        			{ 
@@ -63,6 +66,7 @@
 			        			{ block: 'text', elemMods: { size: 'l' } },
 			        			{ block: 'text', elemMods: { view: 'primary' } },
 			        		],
+                            content: { block: 'text', elem: 'word', elemMods: { width: 'l' } }
 		    			},
 		    			{ 
 		    				block: 'form', 
@@ -74,7 +78,6 @@
         	] 
         },
         { 
-        	block: 'payment',
         	elem: 'footer',
         	mix: [ 
         			{ block: 'form', elem: 'item', elemMods: { distribute: 'between' } },
@@ -87,9 +90,10 @@
     			{ 
     				block: 'text', 
     				mix: [ 
-	        			{ block: 'text', elemMods: { size: 'l' } },
-	        			{ block: 'text', elemMods: { view: 'primary' } },
+	        			{ elemMods: { size: 'l' } },
+	        			{ elemMods: { view: 'primary' } },
 	        		],
+                    content: { block: 'text', elem: 'word', elemMods: { width: 'l' } }
     			},
     			{ 
     				block: 'button'
