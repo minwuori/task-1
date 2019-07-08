@@ -37,8 +37,8 @@ module.export = {
 		    				elem: 'label',
 		    				mix: [
 			        			{ block: 'form', elem: 'item', elemMods: { 'width': 'default' } },
-			        			{ block: 'text', elemMods: { 'size': 'l' } },
-			        			{ block: 'text', elemMods: { 'view': 'primary' } },
+			        			{ block: 'text', mods: { 'size': 'l' } },
+			        			{ block: 'text', mods: { 'view': 'primary' } },
 			        		],
                             content: { block: 'text', elem: 'word', elemMods: { 'width': 'l' } }
 		    			},
@@ -63,8 +63,8 @@ module.export = {
 		    				elem: 'label',
 		    				mix: [
 			        			{ block: 'form', elem: 'item', elemMods: { 'width': 'default' } },
-			        			{ block: 'text', elemMods: { 'size': 'l' } },
-			        			{ block: 'text', elemMods: { 'view': 'primary' } },
+			        			{ block: 'text', mods: { 'size': 'l' } },
+			        			{ block: 'text', mods: { 'view': 'primary' } },
 			        		],
                             content: { block: 'text', elem: 'word', elemMods: { 'width': 'l' } }
 		    			},
