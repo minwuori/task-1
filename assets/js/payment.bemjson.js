@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     block: 'payment',
     mix: [ { block: 'form', mods: { 'border': 'all'} } ],
     content: [
@@ -101,4 +101,4 @@ module.export = {
     		]
         },
     ]
-}
+};
